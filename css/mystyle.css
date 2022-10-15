@@ -58,14 +58,12 @@ section{
 /*End My Framework*/
 
 .img-profile{
-	/* width: 100px;
-	height: 200px;
-	border-radius: 75%; */
 	height: 200px;
 	width: 200px;
 	background-color: #bbb;
 	border-radius: 50%;
-	display: inline-block;
+	object-fit: cover;
+	object-position: top;
 }
 
 /*Start Banner*/

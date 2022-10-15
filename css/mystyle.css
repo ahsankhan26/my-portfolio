@@ -70,9 +70,6 @@ section{
 .bg{
 	position: relative;
 	min-height: 100vh;
-	background: url('../img/bg.jpg');
-	background-size: cover;
-	background-position: right;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -791,4 +788,12 @@ form.invalid .indicator{
 		padding: 5px;
 	}
 }
-/*End Working on Responsive
+/*End Working on Responsive */
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+
